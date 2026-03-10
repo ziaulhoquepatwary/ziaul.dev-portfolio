@@ -47,7 +47,7 @@ A modern and interactive personal portfolio website built with React and cutting
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ziaul-hoque4820/ziaul.dev-portfolio.git
+git clone https://github.com/ziaulhoquepatwary/ziaul.dev-portfolio.git
 cd portfolio
 ```
 
@@ -95,8 +95,8 @@ yarn build
 If you're looking for a MERN Stack Developer or want to collaborate on any project, feel free to reach out:
 
 - **Email:** [ziaul.dev@gmail.com]
-- **LinkedIn:** [https://www.linkedin.com/in/ziaul-hoque-patwary-a0a546324/]
-- **GitHub:** [https://github.com/ziaul-hoque4820]
+- **LinkedIn:** [https://www.linkedin.com/in/ziaulhoquepatwary/]
+- **GitHub:** [https://github.com/ziaulhoquepatwary]
 
 ## 🤝 Hire Me
 

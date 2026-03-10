@@ -13,7 +13,7 @@ export const projects = [
         description:
             "Zap Shift is a full-stack parcel delivery platform where users can send parcels from one place to another or even register as a rider in their local area. The system works in three roles — User, Rider, and Admin — where the admin assigns deliveries to nearby riders and manages the entire workflow in real time.",
         live_link: "https://zap-shift-client-zeta.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/zap-shift-client.git",
+        github_link: "https://github.com/ziaulhoquepatwary/zap-shift-client.git",
         technologies: ["React", "TailwindCSS", "React-router", "Express.js", "MongoDB", "Firebase", "Stripe"],
     },
     {
@@ -22,7 +22,7 @@ export const projects = [
         description:
             "Weather Dashboard is a real-time weather tracking application that allows users to check current weather conditions and search for any location worldwide. Users can also save their favorite places and quickly view weather updates for those locations anytime from their personalized dashboard.",
         live_link: "https://weather-dashboard-three-iota.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/Weather-Dashboard.git",
+        github_link: "https://github.com/ziaulhoquepatwary/Weather-Dashboard.git",
         technologies: ["React", "TailwindCSS", "React-router", "Weather API"],
     },
     {
@@ -31,7 +31,7 @@ export const projects = [
         description:
             "Job Portal is a complete job marketplace where users can search and apply for jobs after logging in. Employers can post jobs, review applications, and manage candidates by hiring, rejecting, or keeping them on a waiting list through a simple and user-friendly management system.",
         live_link: "https://job-portal-client-flax.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/job-portal-client.git",
+        github_link: "https://github.com/ziaulhoquepatwary/job-portal-client.git",
         technologies: ["React", "TailwindCSS", "React-router", "Express.js", "MongoDB", "Firebase"],
     },
     {
@@ -40,7 +40,7 @@ export const projects = [
         description:
             "Fresh Farmer is a multi-role e-commerce platform where users can buy products and apply to become farmers. Approved farmers can add new products and sell them, while admins manage the system. Farmers can also withdraw their earnings once their products are successfully sold.",
         live_link: "https://fresh-farmer-e-commerce.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/Fresh-Farmer-E-commerce.git",
+        github_link: "https://github.com/ziaulhoquepatwary/Fresh-Farmer-E-commerce.git",
         technologies: ["React", "TailwindCSS", "React-router", "Firebase"],
     },
     {
@@ -49,7 +49,7 @@ export const projects = [
         description:
             "Food Order Management is a simple ordering system where users can place food orders by selecting their preferred items. Admins can manage all orders, mark them as pending or delivered, or delete them while preparing and delivering the food through an organized workflow.",
         live_link: "https://food-order-management-ziaul.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/Food-Order-Management.git",
+        github_link: "https://github.com/ziaulhoquepatwary/Food-Order-Management.git",
         technologies: ["React", "TailwindCSS", "React-router"],
     },
     {
@@ -58,7 +58,7 @@ export const projects = [
         description:
             "This is a visually impressive traveling landing page focused on animations and modern UI design. Built using HTML, CSS, JavaScript, and GSAP, the website gives a smooth, dynamic, and almost 3D-like experience that makes the travel content more engaging and attractive.",
         live_link: "https://animated-travel-landing-page.vercel.app/",
-        github_link: "https://github.com/ziaul-hoque4820/animated-travel-landing-page.git",
+        github_link: "https://github.com/ziaulhoquepatwary/animated-travel-landing-page.git",
         technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
     },
 ];
