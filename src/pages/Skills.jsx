@@ -17,28 +17,36 @@ import nodejs from "../assets/skills/nodejs-icon.png";
 import github from "../assets/skills/github-icon.png";
 import postman from "../assets/skills/postman.png";
 import figma from "../assets/skills/figma-icon.png";
-import pixso from "../assets/skills/pixso.png";
 import firebase from "../assets/skills/firebase-icon.png";
+import ts from "../assets/skills/typescript.png";
+import tanstack from "../assets/skills/tanStack-query.png";
+import git from "../assets/skills/git.png";
+import vercel from "../assets/skills/vercel.png";
+import redux from "../assets/skills/redux.png";
 import SectionTitle from "../shared/SectionTitle";
 
 const skills = [
-    { title: "HTML5", icon: html, category: "Frontend", level: 85 },
-    { title: "CSS3", icon: css, category: "Frontend", level: 75 },
-    { title: "Bootstrap", icon: bootstrap, category: "Frontend", level: 70 },
-    { title: "TailwindCSS", icon: tailwind, category: "Frontend", level: 80 },
-    { title: "JavaScript", icon: js, category: "Frontend", level: 50 },
-    { title: "React.js", icon: react, category: "Frontend", level: 60 },
-    { title: "Next.js", icon: next, category: "Frontend", level: 50 },
-    { title: "Stripe", icon: stripe, category: "Frontend", level: 50 },
-    { title: "MongoDB", icon: mongodb, category: "Backend", level: 50 },
-    { title: "Express.js", icon: express, category: "Backend", level: 40 },
-    { title: "Node.js", icon: nodejs, category: "Backend", level: 35 },
-    { title: "Firebase", icon: firebase, category: "Backend", level: 60 },
-    { title: "JWT Token", icon: jwtToken, category: "Backend", level: 50 },
-    { title: "Postman", icon: postman, category: "Backend", level: 40 },
-    { title: "GitHub", icon: github, category: "Tools", level: 55 },
-    { title: "Figma", icon: figma, category: "Tools", level: 50 },
-    { title: "Pixso", icon: pixso, category: "Tools", level: 50 },
+    { title: "HTML5", icon: html, category: "Frontend", level: 85, proficiency: "Proficient" },
+    { title: "CSS3", icon: css, category: "Frontend", level: 75, proficiency: "Proficient" },
+    { title: "Bootstrap", icon: bootstrap, category: "Frontend", level: 70, proficiency: "Proficient" },
+    { title: "TailwindCSS", icon: tailwind, category: "Frontend", level: 80, proficiency: "Proficient" },
+    { title: "JavaScript", icon: js, category: "Frontend", level: 70, proficiency: "Proficient" },
+    { title: "TypeScript", icon: ts, category: "Frontend", level: 50, proficiency: "Learning" },
+    { title: "Redux", icon: redux, category: "Frontend", level: 50, proficiency: "Learning" },
+    { title: "React.js", icon: react, category: "Frontend", level: 70, proficiency: "Proficient" },
+    { title: "Next.js", icon: next, category: "Frontend", level: 70, proficiency: "Proficient" },
+    { title: "Node.js", icon: nodejs, category: "Backend", level: 50, proficiency: " Learning" },
+    { title: "Express.js", icon: express, category: "Backend", level: 65, proficiency: "Intermediate" },
+    { title: "MongoDB", icon: mongodb, category: "Backend", level: 65, proficiency: "Intermediate" },
+    { title: "JWT Token", icon: jwtToken, category: "Backend", level: 70, proficiency: "Proficient" },
+    { title: "Firebase", icon: firebase, category: "Backend", level: 75, proficiency: "Proficient" },
+    { title: "Stripe", icon: stripe, category: "Backend", level: 50, proficiency: "Learning" },
+    { title: "TanStack Query", icon: tanstack, category: "Backend", level: 50, proficiency: "Learning" },
+    { title: "Git", icon: git, category: "Tools", level: 70, proficiency: "Intermediate" },
+    { title: "GitHub", icon: github, category: "Tools", level: 70, proficiency: "Intermediate" },
+    { title: "Figma", icon: figma, category: "Tools", level: 60, proficiency: "Intermediate" },
+    { title: "Postman", icon: postman, category: "Tools", level: 60, proficiency: "Intermediate" },
+    { title: "Vercel", icon: vercel, category: "Tools", level: 70, proficiency: "Proficient" },
 ];
 
 const Skills = () => {
@@ -83,7 +91,7 @@ const Skills = () => {
                         className="bg-gray-900/60 p-5 rounded-xl border border-gray-700 hover:border-cyan-500/50 transition-all duration-300"
                     >
                         <div className="flex items-center gap-4 mb-3">
-                            <div className="w-12 h-12 bg-gray-700 rounded-lg p-2 flex items-center justify-center">
+                            <div className="w-14 h-14 bg-gray-100 rounded-lg p-2 flex items-center justify-center">
                                 <img
                                     src={skill.icon}
                                     alt={skill.title}
@@ -92,8 +100,11 @@ const Skills = () => {
                             </div>
                             <div className="flex-1">
                                 <h3 className="font-semibold text-white">{skill.title}</h3>
-                                <p className="text-xs text-gray-400">
-                                    {skill.level}% Proficiency
+                                <p className={`text-xs font-medium ${skill.proficiency === "Proficient" ? "text-cyan-400" :
+                                        skill.proficiency === "Intermediate" ? "text-yellow-400" :
+                                            "text-gray-400"
+                                    }`}>
+                                    {skill.proficiency}
                                 </p>
                             </div>
                         </div>
