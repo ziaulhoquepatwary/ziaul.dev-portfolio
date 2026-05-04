@@ -10,15 +10,15 @@ import { BsGithub } from "react-icons/bs";
 
 const socials = [
     {
-        href: "https://www.linkedin.com/in/ziaul-hoque-patwary-a0a546324/",
+        href: "https://www.linkedin.com/in/ziaulhoquepatwary/",
         icon: FaLinkedin,
     },
     {
-        href: "https://www.facebook.com/profile.php?id=61581156689224",
+        href: "https://www.facebook.com/ziaul.dev/",
         icon: FaFacebook,
     },
     {
-        href: "https://github.com/ziaul-hoque4820",
+        href: "https://github.com/ziaulhoquepatwary",
         icon: BsGithub,
     },
 ];
@@ -60,9 +60,9 @@ const Banner = () => {
                             words={[
                                 "Web Developer",
                                 "React Developer",
+                                "Next.js Developer",
                                 "MERN Stack Developer",
                                 "Frontend Developer",
-                                "UI/UX Designer",
                             ]}
                             loop={0}
                             cursor
@@ -80,13 +80,12 @@ const Banner = () => {
                     transition={{ delay: 0.6 }}
                     className="text-slate-400 text-base xl:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 xl:pb-4"
                 >
-                    I’m a <span className="text-cyan-400 font-medium">Web Engineer</span> with a foundation in
-                    <span className="text-cyan-400 font-medium"> Accounting</span> and
-                    <span className="text-cyan-400 font-medium"> audit</span>, focused on building clean, scalable,
+                    I'm a <span className="text-cyan-400 font-medium">Junior MERN Stack Developer</span> with a background in
+                    <span className="text-cyan-400 font-medium"> Accounting</span>, focused on building clean, scalable,
                     and user-centric web applications. I work with
-                    <span className="text-cyan-400 font-medium"> React</span>, the
-                    <span className="text-cyan-400 font-medium"> MERN stack</span>, and explore
-                    <span className="text-cyan-400 font-medium"> Next.js</span> for modern FinTech solutions.
+                    <span className="text-cyan-400 font-medium"> React.js</span> and
+                    <span className="text-cyan-400 font-medium"> Next.js</span>, with a keen interest in developing
+                    <span className="text-cyan-400 font-medium"> FinTech</span> solutions.
                 </motion.p>
 
 

@@ -82,12 +82,11 @@ const About = () => {
                         viewport={{ once: true }}
                         className="text-slate-400 md:text-lg leading-relaxed text-center lg:text-left"
                     >
-                        I’m a <span className="text-cyan-400 font-medium">Web Engineer</span> with a strong background in
-                        <span className="text-cyan-400 font-medium"> Accounting</span> and
-                        <span className="text-cyan-400 font-medium"> audit</span>, experienced through ICAB. I build
-                        scalable, user-focused applications using
-                        <span className="text-cyan-400 font-medium"> React</span> and the
-                        <span className="text-cyan-400 font-medium"> MERN stack</span>, aiming to create impactful
+                        I'm a <span className="text-cyan-400 font-medium">Junior MERN Stack Developer</span> with a background in
+                        <span className="text-cyan-400 font-medium"> Accounting</span>, trained through
+                        <span className="text-cyan-400 font-medium"> ICAB</span>. I build clean, scalable, and user-focused
+                        applications using <span className="text-cyan-400 font-medium"> React.js</span> and
+                        <span className="text-cyan-400 font-medium"> Next.js</span>, with a passion for creating impactful
                         <span className="text-cyan-400 font-medium"> FinTech solutions</span>.
                     </motion.p>
 
