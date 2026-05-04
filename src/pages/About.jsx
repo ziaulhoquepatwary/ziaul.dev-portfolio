@@ -40,7 +40,7 @@ const About = () => {
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    viewport={{ once: true, amount: 0.4 }}
+                    viewport={{ once: true, amount: 0.1 }} // ← 0.4 থেকে 0.1 করা হয়েছে
                     className="relative block"
                 >
                     {/* Floating CV Button */}
@@ -79,7 +79,7 @@ const About = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, amount: 0.1 }} // ← এটাও ঠিক করা হয়েছে
                         className="text-slate-400 md:text-lg leading-relaxed text-center lg:text-left"
                     >
                         I'm a <span className="text-cyan-400 font-medium">Junior MERN Stack Developer</span> with a background in
@@ -99,7 +99,7 @@ const About = () => {
                                 initial={{ opacity: 0, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                                viewport={{ once: true }}
+                                viewport={{ once: true, amount: 0.1 }} // ← এটাও ঠিক করা হয়েছে
                                 whileHover={{ y: -5 }}
                                 className="relative group p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition-all duration-300 shadow-xl shadow-cyan-500/5"
                             >
