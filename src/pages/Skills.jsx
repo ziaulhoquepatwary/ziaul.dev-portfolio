@@ -18,6 +18,7 @@ import github from "../assets/skills/github-icon.png";
 import postman from "../assets/skills/postman.png";
 import figma from "../assets/skills/figma-icon.png";
 import firebase from "../assets/skills/firebase-icon.png";
+import betterAuth from "../assets/skills/better-auth.png";
 import ts from "../assets/skills/typescript.png";
 import tanstack from "../assets/skills/tanStack-query.png";
 import git from "../assets/skills/git.png";
@@ -35,11 +36,12 @@ const skills = [
     { title: "Redux", icon: redux, category: "Frontend", level: 50, proficiency: "Learning" },
     { title: "React.js", icon: react, category: "Frontend", level: 70, proficiency: "Proficient" },
     { title: "Next.js", icon: next, category: "Frontend", level: 70, proficiency: "Proficient" },
-    { title: "Node.js", icon: nodejs, category: "Backend", level: 50, proficiency: " Learning" },
+    { title: "Node.js", icon: nodejs, category: "Backend", level: 30, proficiency: " Learning" },
     { title: "Express.js", icon: express, category: "Backend", level: 65, proficiency: "Intermediate" },
     { title: "MongoDB", icon: mongodb, category: "Backend", level: 65, proficiency: "Intermediate" },
-    { title: "JWT Token", icon: jwtToken, category: "Backend", level: 70, proficiency: "Proficient" },
-    { title: "Firebase", icon: firebase, category: "Backend", level: 75, proficiency: "Proficient" },
+    { title: "JWT Token", icon: jwtToken, category: "Backend", level: 50, proficiency: "Learning" },
+    { title: "Firebase", icon: firebase, category: "Backend", level: 70, proficiency: "Proficient" },
+    { title: "Better Auth", icon: betterAuth, category: "Backend", level: 75, proficiency: "Intermediate" },
     { title: "Stripe", icon: stripe, category: "Backend", level: 50, proficiency: "Learning" },
     { title: "TanStack Query", icon: tanstack, category: "Backend", level: 50, proficiency: "Learning" },
     { title: "Git", icon: git, category: "Tools", level: 70, proficiency: "Intermediate" },

@@ -10,13 +10,24 @@ import boardResultSystem from "../assets/projects/board-result.png";
 import swiftCart from "../assets/projects/swift-cart.jpg";
 import payoo from "../assets/projects/payoo.png";
 import photographyPortfolio from "../assets/projects/photography.png";
+import ideaSpark from "../assets/projects/Idea-spark.jpg";
 
 
 export const projects = [
     // ── MERN Stack 
     {
+        image: ideaSpark,
+        name: "IdeaSpark (collaborative web platform)",
+        type: ["MERN Stack"],
+        description: "IdeaSpark is a community-driven innovation platform where entrepreneurs, creators, and developers can share startup ideas, receive valuable feedback, and collaborate with like-minded individuals. Users can discover trending ideas, engage in meaningful discussions, support projects through likes, connect with potential co-founders, and track idea engagement to validate and refine their concepts effectively.",
+        live_link: "https://idea-spark-zeta-wine.vercel.app/",
+        github_client: "https://github.com/ziaulhoquepatwary/IdeaSpark-client.git",
+        github_server: "https://github.com/ziaulhoquepatwary/IdeaSpark-server.git",
+        technologies: ["Next.js", "TailwindCSS", "app-router", "Express.js", "MongoDB", "Better Auth", "Mongoose", "zod"],
+    },
+    {
         image: zapShift,
-        name: "Parcel Delivery (Zap Shift)",
+        name: "Zap Shift (Parcel Delivery web platform)",
         type: ["MERN Stack", "Role-Based System"],
         description:
             "Zap Shift is a full-stack parcel delivery platform where users can send parcels or register as a local rider. The system operates across three roles — User, Rider, and Admin — where the admin assigns deliveries to nearby riders and manages the entire workflow in real time, including payment processing via Stripe.",

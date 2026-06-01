@@ -5,7 +5,8 @@ import { LuDownload } from 'react-icons/lu';
 const ResumeBtn = () => {
     return (
         <motion.a
-            download
+            href="/ziaul-hoque-resume.pdf"
+            download="Ziaul_Hoque_Resume.pdf"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             whileHover={{ boxShadow: "0 0 20px rgba(6, 182, 212, 0.5)" }}
